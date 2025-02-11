@@ -3,7 +3,7 @@ from openrgb import OpenRGBClient
 from openrgb.utils import RGBColor
 
 # Path to Pywal's colors.json
-colors_file = '/home/usnik/.cache/wal/colors.json'
+colors_file = '~/.cache/wal/colors.json'
 
 # Load Pywal colors
 with open(colors_file, 'r') as f:
